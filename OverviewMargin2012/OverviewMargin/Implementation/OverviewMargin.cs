@@ -782,7 +782,7 @@ namespace Microsoft.VisualStudio.Extensions.OverviewMargin.Implementation
                 {
                     try
                     {
-                        return (_realScrollBar != null) && (_realScrollBarMargin.VisualElement.Visibility == Visibility.Visible);
+                        return (_realScrollBar != null) && (_realScrollBarMargin != null) && (_realScrollBarMargin.VisualElement.Visibility == Visibility.Visible);
                     }
                     catch
                     {
